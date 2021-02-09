@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+torch = "===1.7.1"
+torchvision = "===0.8.2"
+torchaudio = "===0.7.2"
+
+[requires]
+python_version = "3.9"
